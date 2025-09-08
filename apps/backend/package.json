@@ -1,0 +1,16 @@
+{
+  "name": "@repo/backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "convex dev",
+    "codegen": "convex codegen",
+    "build": "echo nothing-to-build"
+  },
+  "dependencies": {
+    "@auth/core": "0.37.0",
+    "@convex-dev/auth": "^0.0.88",
+    "@repo/typescript-config": "workspace:*",
+    "convex": "^1.26.2"
+  }
+}

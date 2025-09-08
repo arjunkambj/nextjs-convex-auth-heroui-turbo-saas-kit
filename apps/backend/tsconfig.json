@@ -1,0 +1,6 @@
+{
+  "extends": "../../packages/typescript-config/base.json",
+  "compilerOptions": { "outDir": "dist" },
+  "include": ["convex/**/*.ts"],
+  "exclude": ["_generated", "node_modules"]
+}
